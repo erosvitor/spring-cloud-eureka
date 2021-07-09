@@ -1,7 +1,7 @@
 # SpringCloudEureka
 
 ## Description
-The **SpringCloudEureka** is a project that show how to implement a service discovery using the Spring Cloud Netflix Eureka.
+Project that show how to implement a service discovery using the Spring Cloud Netflix Eureka.
 
 ## Technologies
 The project use the following technologies:
