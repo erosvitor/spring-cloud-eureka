@@ -1,20 +1,29 @@
-# SpringCloudEureka
-
-## Description
-Project that show how to implement a service discovery using the Spring Cloud Netflix Eureka.
+## About
+The project shows how to implement a service discovery using the Spring Cloud Netflix Eureka.
 
 ## Technologies
-The project use the following technologies:
+The following tools were used in this project:
 
-* Java 11
-* Apache Maven
-* Project aggregation
-* Spring Boot
-* Spring Cloud Netflix Eureka
-* IDE Eclipse
+* [Java Oracle](https://www.oracle.com/java/)
+* [Apache Maven](https://maven.apache.org/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Spring Cloud Netflix Eureka](https://spring.io/projects/spring-cloud-netflix)
+* [IDE Eclipse](https://www.eclipse.org/)
 
-## Testing the project
-**Step 1:** Start the microservices
+## Requirements
+Before starting this project you need to have Git, JDK Oracle, Maven and Eclipse IDE installed.
+
+## Starting the project
+
+### Clonning the project
+```
+$ git clone https://github.com/erosvitor/spring-cloud-eureka.git
+
+$ cd spring-cloud-eureka
+```
+
+### Testing the project
+**Step 1:** Start the microservices using Eclipse IDE or by Maven command line
 * EurekaServer
 * ServiceOne
 * ServiceTwo
@@ -27,12 +36,8 @@ http://localhost:8761
 
 ![](references/eureka-dashboard.png)
 
-## References
-[Spring Boot](https://spring.io/projects/spring-boot)  
-[Spring Cloud](https://spring.io/projects/spring-cloud)  
-[Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix)  
-[Spring Cloud Netflix Eureka Server](https://cloud.spring.io/spring-cloud-netflix/reference/html/#spring-cloud-eureka-server)  
-[Spring Cloud Netflix Eureka Client](https://cloud.spring.io/spring-cloud-netflix/reference/html/#netflix-eureka-client-starter)
+## License
+This project is under license from MIT. For more details, see the LICENSE file.
 
 ## Release History
 * 1.0.1 (2021-08-03)
